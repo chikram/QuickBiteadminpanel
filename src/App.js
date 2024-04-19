@@ -1,10 +1,16 @@
+import Navbar from "./components/NavBar/Navbar";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 
 function App() {
   return (
 
-    <div className="container">
-      <h1>Admin panel</h1>
+    <div>
+      <Navbar />
+      <hr />
+      <div className="app-containt">
+        <Sidebar />
+      </div>
     </div>
   );
 }
