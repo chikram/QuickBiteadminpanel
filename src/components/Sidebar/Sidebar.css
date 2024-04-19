@@ -29,6 +29,11 @@
 .sidebar-option p {
   margin: 0; /* Remove default paragraph margins */
 }
+.sidebar-option:active,
+.sidebar-option:focus {
+  border-color: tomato;
+  background-color: #fff0ed;
+}
 
 @media (max-width: 700px) {
   .sidebar-option p {

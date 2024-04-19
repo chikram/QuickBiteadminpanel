@@ -1,0 +1,14 @@
+.add {
+  margin-left: max(5vw, 25px);
+  margin-top: 50px;
+  width: 30%;
+}
+.add-category-price {
+  display: flex;
+  gap: 30px;
+}
+.add-category-price select,
+.add-category-price input {
+  max-width: 120px;
+  padding: 7px;
+}
