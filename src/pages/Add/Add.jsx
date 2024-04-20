@@ -104,7 +104,7 @@ const Add = () => {
             </label>
             <select name="category" onChange={onChangeHandler}>
               <option value="Salad">Salad</option>
-              <option value="Rools">Rolls</option>
+              <option value="Rolls">Rolls</option>
               <option value="Deserts">Deserts</option>
               <option value="Sandwich">Sandwich</option>
               <option value="Cake">Cake</option>
