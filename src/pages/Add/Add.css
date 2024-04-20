@@ -1,7 +1,7 @@
 .add {
   margin-left: max(5vw, 25px);
   margin-top: 50px;
-  width: 30%;
+  width: 35%;
 }
 .add-category-price {
   display: flex;
@@ -11,4 +11,9 @@
 .add-category-price input {
   max-width: 120px;
   padding: 7px;
+}
+@media only screen and (min-width: 1100px) {
+  .label {
+    margin-right: 20px !important;
+  }
 }

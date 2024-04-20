@@ -99,7 +99,7 @@ const Add = () => {
         </div>
         <div className="add-category-price">
           <div className=" add-category flex-col">
-            <label htmlFor="category" className="form-label">
+            <label htmlFor="category" className="form-label label">
               Product Name
             </label>
             <select name="category" onChange={onChangeHandler}>
@@ -115,7 +115,7 @@ const Add = () => {
           </div>
 
           <div className=" add-price flex-col">
-            <label htmlFor="number" className="form-label">
+            <label htmlFor="number" className="form-label label">
               Product Name
             </label>
             <input
